@@ -9,7 +9,7 @@ private:
 public:
     QLSinhVien(); // Constructor mặc định
     ~QLSinhVien(); // Destructor
-    void themSinhVien(); // Thêm một sinh viên mới vào danh sách
+    void themSinhVien(SinhVien); // Thêm một sinh viên mới vào danh sách
     void capNhatFile(); // Cập nhật danh sách sinh viên vào file
     void docDanhSach(); // Đọc danh sách sinh viên từ file
     void xuatDanhSach(); // Xuất danh sách sinh viên

@@ -5,7 +5,6 @@ private:
     char* maSV; // Mã số sinh viên
     char* ngaySinh; // Ngày sinh
     float marks[3]; // Mảng điểm: bài tập, thi giữa kỳ, thi cuối kỳ
-    float stdAvg; // Điểm trung bình
 
 public:
     SinhVien(); // Constructor mặc định
@@ -15,5 +14,5 @@ public:
     SinhVien& operator=(const SinhVien& sv); // Toán tử gán bằng
     void nhapThongTin(); // Nhập thông tin sinh viên
     void xuatThongTin(); // Xuất thông tin sinh viên
-    void tinhDiemTrungBinh(); // Tính điểm trung bình
+    float tinhDiemTrungBinh(); // Tính điểm trung bình
 };

@@ -1,0 +1,6 @@
+﻿  QLSinhVien.cpp
+C:\code\vs\QL_SinhVien\Project1\QLSinhVien.cpp(9,7): error C2297: '+=': not valid as right operand has type 'void'
+C:\code\vs\QL_SinhVien\Project1\QLSinhVien.cpp(9,7): error C2120: 'void' illegal with all types
+  SinhVien.cpp
+  main.cpp
+  Generating Code...
