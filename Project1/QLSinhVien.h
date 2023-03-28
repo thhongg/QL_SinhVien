@@ -17,4 +17,3 @@ public:
     void xepLoaiSinhVien(); // Xếp loại sinh viên và xuất danh sách sinh viên có thông tin xếp loại
     void timSinhVienSinhTrongNgay(); // Tìm và xuất danh sách sinh viên có sinh nhật trong ngày hiện tại
 };
-
